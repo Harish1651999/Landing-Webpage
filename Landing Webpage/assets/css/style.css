@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: 'Kumbh Sans', sans-serif;
+}
+
+/* Header css */
+header{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#1179f0;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    align-items: center;
+    padding: 10px 40px ;
+}
+
+nav ul li a{
+transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover{
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+header > button{
+    padding: 9px 25px;
+    background-color: #4cf011;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+header > button:hover{
+    background-color: green;
+    transition: all 0.3s ease 0s;
+}
+
+li, a , button{
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color:white;
+}
+
+
+/* content css */
+.content{
+    display: flex;
+    padding: 80px 10%;
+    justify-content: space-between;
+    color: white;
+    background-color: #1179f0;
+}
+
+.first h1{
+    font-size: 40px;
+}
+
+.first p{
+    margin: 30px 0;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color:transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out .15s
+    ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-outline{
+    border-radius: 30px;
+    color: white;
+    border-color: white;
+    padding: 12px 30px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-outline:hover{
+background: white;
+color:#1179f0 ;
+}
+
+/* Social links */
+.social-links{
+    padding: 20px;
+    margin-top: 140px;
+}
+
+.social-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-social{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+}
+
+.bg-facebook{
+    background-color: #335bb3;
+}
+
+.bg-youtube{
+    background-color: #ff0000;
+}
+
+.bg-instagram{
+    background-color: #c13584;
+}
